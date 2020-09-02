@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>plants</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/style.css">
+<style>
+    #navbar{color: #000}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+</style>
+</head>
+<body>
+
+<!-- <body data-spy="scroll" data-target=".navbar" data-offset="50"> -->
+    <!-- start navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top p-0" id="first">
+        <a class="navbar-brand d-lg-none d-md-block pl-4" href="#">plants</a>
+        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-link Home " href="#carouselExampleCaptions">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about ">about us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">our team</a>
+                </li>
+
+            </ul>
+            <div class="d-lg-block d-none">
+                <a class="navbar-brand mr-0 " href="#">plants</a>
+
+            </div>
+            <ul class="navbar-nav ">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">why choose us</a>
+                        <a class="dropdown-item" href="#">our partners</a>
+                        <a class="dropdown-item" href="#">testimonails</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact us</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        language
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item " id="english" href="#">En</a>
+                        <a class="dropdown-item " id="arabic" href="#">AR</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- end navigation bar -->
+    <!-- start hero section -->
+    <header class="hero-section">
+        <div class="slider-hero_section">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h1>welcome to plant</h1>
+                            <p class="mb-5"> Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <button type="button" class="btn btn-primary mt-2 text-white background-orang" data-toggle="modal"
+                                data-target="#carouselModal">
+                                read more
+                            </button>
+                            <i class="fa-arrow-down fa d-block"> </i>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h1>welcome to plant</h1>
+                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <button type="button" class="btn btn-primary mt-2 text-white background-orang" data-toggle="modal"
+                                data-target="#carouselModal">
+                                read more
+                            </button>
+                            <i class="fa-arrow-down fa d-block"> </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1>welcome to plant</h1>
+                        <p class="mb-5">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <button type="button" class="btn btn-primary mt-2 text-white background-orang" data-toggle="modal"
+                            data-target="#carouselModal">
+                            read more
+                        </button>
+                        <i class="fa-arrow-down fa d-block"> </i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+        </div>
+    </header>
+    <!-- end hero section -->
+    <!-- start modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="carouselModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">welcome</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Dina Abdellatif
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+    <!-- start about us section -->
+    <section class="about-us " id="about">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12 m-auto">
+                    <div class="row">
+                        <div class="col-lg-6 text-center">
+                            <figure>
+                                <img src="./images/ab.jpg" alt="about-us" class="img-fluid ">
+                            </figure>
+                            <figure>
+                                <img src="./images/ab2.jpg" alt="about us" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-us_content">
+                                <span class="color-orang">about us</span>
+                                <h2 class="mt-2 mb-4">dusi aute irure olor in cillum solore</h2>
+                                <p class="mb-5">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro aliquam
+                                    ipsum vero eos, nulla quod voluptate, dolores laborum non enim. Deserunt nemo
+                                    recusandae, numquam hic consequuntur possimus minus. Voluptates?
+                                </p>
+                                <div class="media align-items-center">
+                                    <img src="./images/te1.jpg" class="mr-4 rounded-circle" alt="...">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 ">admin name</h5>
+                                        company name
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end about us section -->
+    <!-- start services section  -->
+    <section class="services ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="service-content text-center text-white">
+                        <i class="fa fa-leaf  rounded-circle" aria-hidden="true"></i>
+                        <h3 class="mt-5 mb-3">garden care</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eos place
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-content text-center text-white">
+                        <i class="fa fa-pagelines  rounded-circle" aria-hidden="true"></i>
+                        <h3 class="mt-5 mb-3">plant renovation</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eos place
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-content text-center text-white">
+                        <i class="fa fa-tree  rounded-circle" aria-hidden="true"></i>
+                        <h3 class="mt-5 mb-3">always fresh</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eos place
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services section  -->
+    <!-- start latest blog section -->
+    <section class="latest-blog">
+        <div class="container-fluid no-gutters">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <div class="row">
+                        <div class="col-xl-9">
+                            <h2 class="text-center"><span>latest</span> blog</h2>
+                            <div class="latest-blog_content">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="d-flex flex-row text-dark mt-5 ">
+                                            <h3 class="">iste natus error sit</h3>
+                                            <span class="ml-auto">21 nov, 2018</span>
+                                        </div>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quia explicabo
+                                        minus at, quae velit enim cumque iusto mollitia expedita eum vero, quisquam
+                                        rerum.?
+                                    </li>
+                                    <li>
+                                        <div class="d-flex flex-row text-dark mt-5 ">
+                                            <h3 class="">iste natus error sit</h3>
+                                            <span class="ml-auto">21 nov, 2018</span>
+                                        </div>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quia explicabo
+                                        minus at, quae velit enim cumque iusto mollitia expedita eum vero, quisquam
+                                        rerum.?
+                                    </li>
+                                    <li>
+                                        <div class="d-flex flex-row text-dark mt-5 ">
+                                            <h3 class="">iste natus error sit</h3>
+                                            <span class="ml-auto">21 nov, 2018</span>
+                                        </div>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quia explicabo
+                                        minus at, quae velit enim cumque iusto mollitia expedita eum vero, quisquam
+                                        rerum.?
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 p-0">
+                    <figure>
+                        <img src="./images/blog.jpg" class="w-100" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end latest blog section -->
+    <!-- start section why choose us -->
+    <section class="choose-us">
+        <h2 class="text-center "><span>why</span> choose</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./images/wh1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title mb-0">Card title</h3>
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    <a href="#" class="pr-1">magna kictum</a>
+                                    <span> - </span>
+                                </li>
+                                <li>
+                                    <a href="#" class="pl-1">loremipsum</a>
+                                </li>
+                            </ul>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./images/wh2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title mb-0">Card title</h3>
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    <a href="#" class="pr-1">magna kictum</a>
+                                    <span> - </span>
+                                </li>
+                                <li>
+                                    <a href="#" class="pl-1"> loremipsum</a>
+                                </li>
+                            </ul>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./images/wh3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title mb-0">Card title</h3>
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    <a href="#" class="pr-1">magna kictum</a>
+                                    <span> - </span>
+                                </li>
+                                <li>
+                                    <a href="#" class="pl-1">loremipsum</a>
+                                </li>
+                            </ul>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section why choose us -->
+    <!-- start section gardern tips -->
+    <section class="garden-tips">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+
+                    <h3 class="text-center m-auto text-white ">we give you care tips and ideas on what style suits your
+                        garden</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="tips d-flex flex-row">
+                        <i class="fa fa-smile-o text-white"></i>
+                        <p class="tips-content d-flex flex-column text-white">
+                            <span class="mb-2">1280</span>
+                            <span>happy customers</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="tips d-flex flex-row">
+                        <i class="fa fa-smile-o text-white"></i>
+                        <p class="tips-content d-flex flex-column text-white">
+                            <span class="mb-2">920</span>
+                            <span>awards win</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="tips d-flex flex-row">
+                        <i class="fa fa-smile-o text-white"></i>
+                        <p class="tips-content d-flex flex-column text-white">
+                            <span class="mb-2">1400</span>
+                            <span>products</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="tips d-flex flex-row">
+                        <i class="fa fa-smile-o text-white"></i>
+                        <p class="tips-content d-flex flex-column text-white">
+                            <span class="mb-2">1800</span>
+                            <span>ratings</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section gardern tips -->
+    <!-- start our team section -->
+    <section class="our-team">
+        <h2 class="text-center"><span>our</span> team</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card text-center border-0">
+                        <img src="./images/t1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">mack joe</h5>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-facebook " aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mt-3 background-orang">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card text-center border-0">
+                        <img src="./images/t2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">mack joe</h5>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-facebook " aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mt-3 background-orang">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card text-center border-0">
+                        <img src="./images/t3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">mack joe</h5>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-facebook " aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mt-3 background-orang">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card text-center border-0">
+                        <img src="./images/t4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">mack joe</h5>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-facebook " aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mr-1 mt-3">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="btn text-white mt-3 background-orang">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our team section -->
+    <!--  -->
+    <section class="testimonails">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <blockquote class="blockquote">
+                        <p>
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptates repellendus
+                            labore hic officia commodi expedita ducimus quam dolore. Ipsa modi minus cum cupiditat.
+                        </p>
+                        <h5 class="card-title mt-4">mary joe</h5>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- start our plant -->
+    <section class="plant">
+        <h2 class="text-center"><span>our</span> plant</h2>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g1.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g2.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g3.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g4.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g5.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g6.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g7.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="mb-4">
+                        <img src="./images/g6.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our plant -->
+    <!-- start contact us section -->
+    <section class="contact-us">
+        <h2 class="text-white text-center"><span>contact</span> us</h2>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-8 m-auto">
+                    <form class="mb-5">
+                        <fieldset>
+                            <legend class="text-center text-white">send us a note</legend>
+                            <div class="form-group">
+                                <label class="text-white">name</label>
+                                <input type="text" class="form-control" placeholder="enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-white">Email</label>
+                                <input type="email" class="form-control border-0" placeholder="enter your email">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="text-white">your message</label>
+                                <textarea class="form-control border-0 " rows="5" placeholder="your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 border-0 mb-5">send</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-lg-12 m-auto bg-white">
+                    <div style="padding: 0 4em">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="data_contact-us d-flex ">
+                                    <i class="fa fa-envelope mr-4 color-orang"></i>
+                                    <div class="d-flex flex-column">
+                                        <a href="mailto:dinaabdellatif94@gmail.com">mail 1@example.com</a>
+                                        <a href="mailto:dinaabdellatif94@gmail.com">mail 2@example.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="data_contact-us d-flex  color-orang">
+                                    <i class="fa fa-phone mr-4"></i>
+                                    <div class="d-flex flex-column">
+                                        <a href="tel:01068779800">+1 234 567 8901</a>
+                                        <a href="tel:01068779800">+1 234 567 8901</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="data_contact-us d-flex color-orang">
+                                    <i class="fa fa-envelope mr-4"></i>
+                                    <div class="d-flex flex-column">
+                                        <a href="#">687 main road hollies</a>
+                                        <a href="#">california, usa</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact us section -->
+    <!-- start our partners section -->
+    <section class="partners">
+        <h2 class="text-center">our partners</h2>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-2 col-sm-4">
+                    <i class="fa fa-openid"></i>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <i class="fa fa-openid"></i>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <i class="fa fa-openid"></i>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <i class="fa fa-openid"></i>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <i class="fa fa-openid"></i>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <i class="fa fa-openid"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end our partners section -->
+    <!--start div of icon scroll top -->
+    <a href="#" class="icon-scroll_top color-orang">
+        <i class="fa fa-chevron-up " aria-hidden="true"></i>
+    </a>
+    <!--end div of icon scroll top -->
+    <!--    start footer  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="footer-content text-center">
+                        <div class="best-service">
+                            <h3 class="mb-3">we provide best service</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ea, deleniti nobis id
+                                facilis minus non est quod repellendus .
+                            </p>
+                        </div>
+                        <div class="contants-info">
+                            <h2 class="mb-3 color-orang">plants</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti autem nobis .
+                            </p>
+                            <div class="content">
+                                <ul class="list-unstyled d-flex flex-md-row flex-column justify-content-center">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-map-marker mr-1 text-dark"></i>
+                                            939 setwant nater usa
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-phone mr-1 text-dark"></i>
+                                            +1(104) 1234 567
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:dinaabdellatif94@gmail.com">
+                                            <i class="fa fa-envelope mr-1 text-dark"></i>
+                                            example@gmail.com
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="rounded-circle d-inline-block mr-2">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#" class="rounded-circle d-inline-block mr-2">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#" class="rounded-circle d-inline-block background-orang mr-2">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#" class="rounded-circle d-inline-block">
+                                    <i class="fa fa-vk"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="copy-right">
+                            &copy; 2020 plants all rights reserved | by w3layout
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--    end footer  -->
+            
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.1.3.js"></script>
+    <script src="./js/custom.js"></script>
+            
+</body>
+
+</html>
